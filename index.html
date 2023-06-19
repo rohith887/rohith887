@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,400;1,700;1,800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <title>Frontend Mentor | Age calculator app</title>
+  </head>
+  <body>
+    <main>
+      <div class="calculator">
+        <form class="calculator__form" novalidate>
+          <div class="calculator__form-input">
+            <div>
+              <label for="day">DAY</label>
+              <input
+                type="number"
+                placeholder="DD"
+                class="day"
+                id="day"
+                oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
+                maxlength="2"
+                required
+              />
+              <p class="day__input-error error"></p>
+            </div>
+            <div>
+              <label for="month">MONTH</label>
+              <input
+                type="number"
+                placeholder="MM"
+                class="month"
+                id="month"
+                oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
+                maxlength="2"
+                required
+              />
+              <p class="month__input-error error"></p>
+            </div>
+
+            <div>
+              <label for="year">YEAR</label>
+              <input
+                placeholder="YYYY"
+                class="year"
+                id="year"
+                type="number"
+                oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
+                maxlength="4"
+                required
+              />
+              <p class="year__input-error error"></p>
+            </div>
+          </div>
+          <div class="icon">
+            <button type="submit">
+              <img
+                src="./assets/images/icon-arrow.svg"
+                class="icon__logo"
+                alt="icon_logo"
+              />
+            </button>
+          </div>
+        </form>
+
+        <div class="calculator__result">
+          <h2><span class="result age-year">- -</span> years</h2>
+          <h2><span class="result age-month">- -</span> months</h2>
+          <h2><span class="result age-day">- -</span> days</h2>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by
+        <a href="https://github.com/nazimulhossain">NAZIMUL HOSSAIN</a>.
+      </div>
+    </footer>
+  </body>
+</html>
