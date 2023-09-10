@@ -1,112 +1,82 @@
-## Age calculator app solution
+<img align = "center" height ="300px" width="100%" src="https://miro.medium.com/max/1400/1*OxT7UjIwhklKE8d8SFyo7g.gif" alt="">
+<h1 align="center">Hi 👋, I'm Rohith</h1>
+<!-- <h3 align="center">A passionate frontend developer from India</h3> -->
+<p align="center">
+  <a href="https://github.com/DenverCoder1/readme-typing-svg"><img src="https://readme-typing-svg.herokuapp.com?lines=Passionate+Web+Developer;Always%20learning%20new%20things&center=true&width=500&height=50"></a>
+</p>
+<!-- <img align="right" width="400px" src="https://miro.medium.com/max/828/0*7Q3yvSIv_t0ioJ-Z.gif" alt="coding"> -->
+<h3>
+	- 🌱 I’m currently learning  <b>React</b>
+	</h1>
 
-This is a solution to the [Age calculator app]
+- 📫 How to reach me **yashwanthreddy7675@gmail.com**
 
-## Table of contents
+<h3 align="left">Connect with me:</h3>
+<p align="left">
+    <a href="https://twitter.com/kyashwanth711" target="blank"><img align="center"
+            src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg"
+            alt="kyashwanth711" height="30" width="40" /></a>
+    <a href="https://linkedin.com/in/komatireddy yashwanth reddy" target="blank"><img align="center"
+            src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg"
+            alt="komatireddy yashwanth reddy" height="30" width="40" /></a>
+   <!-- <a href="https://www.leetcode.com/yashwanth_komatireddy" target="blank"><img align="center"
+            src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg"
+            alt="yashwanth_komatireddy" height="30" width="40" /></a>-->
+</p>
 
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-
-## Overview
-
-### The challenge
-
-Users should be able to:
-
-- View an age in years, months, and days after submitting a valid date through the form
-- Receive validation errors if:
-  - Any field is empty when the form is submitted
-  - The day number is not between 1-31
-  - The month number is not between 1-12
-  - The year is in the future
-  - The date is invalid e.g. 31/04/1991 (there are 30 days in April)
-- View the optimal layout for the interface depending on their device's screen size
-- See hover and focus states for all interactive elements on the page
-- **Bonus**: See the age numbers animate to their final number when the form is submitted
-
-### Screenshot
-
-- Desktop View:
-
-![](./desktop-complete.png)
-
-- Mobile View :
-
-![](./mobile-view.png)
-
-- No Input Error View :
-
-![](./no-input-error.png)
-
-- Invalid Entry :
-
-![](./invalid-entry-error.png)
-
-### Links
-
-- Live Site URL: (https://chic-alpaca-cede2c.netlify.app/)
-
-## My process
-
-### Built with
-
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- CSS Media Queries
-- CSS Animation
-- Javascript
-- Events
-- Date Object
-
-### What I learned
-
-how to use css animation and learned about oninput event use in input to restrict input type number to its maxlength(which not works in input type number).
-
-To see how you can add code snippets, see below:
-
-```css
-@keyframes shake {
-  0%,
-  100% {
-    transform: translateX(0);
-  }
-  10%,
-  30%,
-  50%,
-  70%,
-  90% {
-    transform: translateX(-10px);
-  }
-  20%,
-  40%,
-  60%,
-  80% {
-    transform: translateX(10px);
-  }
-}
-
-.result {
-  display: inline-block;
-  animation: shake 2s ease;
-}
-```
-
-```html
-<input
-  placeholder="YYYY"
-  class="year"
-  id="year"
-  type="number"
-  oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
-  maxlength="4"
-  required
-/>
-```
+<h3 align="left">Languages and Tools:</h3>
+<p align="left"> 
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg"
+            alt="c" width="40" height="40" /> </a> <a href="https://www.w3schools.com/cpp/" target="_blank"
+        rel="noreferrer"> <img
+            src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg"
+            alt="cplusplus" width="40" height="40" /> </a> <a href="https://www.w3schools.com/css/" target="_blank"
+        rel="noreferrer"> <img
+            src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg"
+            alt="css3" width="40" height="40" /> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer">
+        <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40" /> </a>
+    <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img
+            src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg"
+            alt="html5" width="40" height="40" /> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer">
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java"
+            width="40" height="40" /> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+        target="_blank" rel="noreferrer"> <img
+            src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
+            alt="javascript" width="40" height="40" /> </a> <a href="https://www.mysql.com/" target="_blank"
+        rel="noreferrer"> <img
+            src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg"
+            alt="mysql" width="40" height="40" /> </a> <a href="https://www.python.org" target="_blank"
+        rel="noreferrer">
+	 <img
+            src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg"
+            alt="postgresql" width="40" height="40" /> </a> <a href="https://www.python.org" target="_blank"
+        rel="noreferrer">
+	<img
+            src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg"
+            alt="python" width="40" height="40" /> </a>
+	 <a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> <img
+            src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg"
+            alt="bootstrap" width="40" height="40" /> </a> <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> 
+</p>
+<p align="left"> <img
+        src="https://komarev.com/ghpvc/?username=rohith887&label=Profile%20views&color=0e75b6&style=flat"
+        alt="rohith887" /> </p>
+<!-- <h3 align="left">Support:</h3>
+<p><a href="https://www.buymeacoffee.com/Yashwanth Reddy"> <img align="left" "
+            src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210"
+            alt="Yashwanth Reddy" /></a></p><br><br> -->
 
 
+<!--<p align="center"><img align="center" src="https://profile-counter.glitch.me/{rohith887}/count.svg" /></p>-->
+ 
+## 📈 Statistics :-
+ <p align="center"><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=rohith887&theme=tokyonight_duo" alt="rohith887" /></p>
+  <br/>
+  <!--<p align="center">
+    <a href="https://github.com/anuraghazra/github-readme-stats">
+	    <img alt="rohith887's Github Stats" src="https://github-readme-stats.vercel.app/api?username=rohith887&show_icons=true&count_private=true&locale=en&theme=tokyonight&layout=compact" height="230px"/></a>
+	  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=rohith887&langs_count=10&show_icons=true&locale=en&theme=tokyonight" alt="rohith887" height="230px"/>-->
+      
+<!--   <summary><b>⚡ Recent GitHub Activity</b></summary>
+<a href="https://github.com/rohith887"><img alt="rohith887's Activity Graph" src="https://github-readme-activity-graph.cyclic.app/graph?username=rohith887&theme=react-dark" /></a>
+<br/>   -->
