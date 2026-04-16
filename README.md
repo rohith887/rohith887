@@ -6,7 +6,7 @@
 </p>
 <!-- <img align="right" width="400px" src="https://miro.medium.com/max/828/0*7Q3yvSIv_t0ioJ-Z.gif" alt="coding"> -->
 <h3>
-	- 🌱 I’m currently learning  <b>Java</b>
+	- 🌱 I’m currently learning  <b>AI</b>
 	</h1>
 
 - 📫 How to reach me **rohithkrr2001@gmail.com**
